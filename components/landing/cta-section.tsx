@@ -1,3 +1,4 @@
+/* eslint-disable style/quotes */
 'use client'
 
 import { motion, useAnimation, useInView } from 'framer-motion'
@@ -5,8 +6,8 @@ import {
    BarChart,
    ChevronRight,
    File,
+   GitBranch,
    Globe,
-   HeartHandshake,
    Rss,
    Shield,
 } from 'lucide-react'
@@ -18,7 +19,7 @@ import Marquee from '~/components/ui/marquee'
 
 const tiles = [
    {
-      icon: <HeartHandshake className="size-full" />,
+      icon: <GitBranch className="size-full" />,
       bg: (
          <div className="pointer-events-none absolute left-1/2 top-1/2 size-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-orange-600 via-rose-600 to-violet-600 opacity-70 blur-[20px]"></div>
       ),
@@ -115,7 +116,7 @@ export default function CallToActionSection() {
 
    useEffect(() => {
       if (typeof window !== 'undefined') {
-      // Ensures this runs client-side
+         // Ensures this runs client-side
          setRandomTiles1(shuffleArray([...tiles]))
          setRandomTiles2(shuffleArray([...tiles]))
          setRandomTiles3(shuffleArray([...tiles]))
@@ -172,14 +173,17 @@ export default function CallToActionSection() {
                   </Marquee>
                   <div className="absolute z-10">
                      <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-3 shadow-2xl backdrop-blur-md lg:size-32 dark:bg-black/10">
-                        <HeartHandshake className="mx-auto size-16 text-black lg:size-24 dark:text-white" />
+                        <GitBranch className="mx-auto size-16 text-black lg:size-24 dark:text-white" />
                      </div>
                      <div className="text-primary z-10 mt-4 flex flex-col items-center text-center">
                         <h1 className="text-3xl font-bold lg:text-4xl">
-                           Stop wasting time on design.
+                           Develop with arweave
+                           {' '}
+                           {">"}
+                           _
                         </h1>
                         <p className="mt-2">
-                           Start your 7-day free trial. No credit card required.
+                           Launch it permanently on the permaweb in one click
                         </p>
                         <Link
                            href="#"
@@ -191,7 +195,7 @@ export default function CallToActionSection() {
                               'group mt-4 rounded-[2rem] px-6',
                            )}
                         >
-                           Get Started
+                           Join the waitlist
                            <ChevronRight className="ml-1 size-4 transition-all duration-300 ease-out group-hover:translate-x-1" />
                         </Link>
                      </div>
