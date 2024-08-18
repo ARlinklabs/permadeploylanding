@@ -57,7 +57,7 @@ export default function HeroSection() {
                      <SVG src="/arrow-top-right.svg" />
                   </span>
                </ShimmerButton>
-               {/* <button className='border text-lg py-3 px-5 bg-green-600 cursor-pointer rounded-full'> Join the waitlist</button> */}
+               {/* <button className='border text-lg py-3 px-5 bg-green-600 cursor-pointer rounded-full'> Join the waitlist now</button> */}
             </div>
          </div>
          <div
