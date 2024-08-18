@@ -19,7 +19,7 @@ export default function HeroSection() {
    return (
       <section
          id="hero"
-         className="relative mx-auto gap-[116px] mt-[250px] max-w-7xl px-6 text-center md:px-8"
+         className="relative mx-auto gap-[116px] mt-[150px] max-w-7xl px-6 text-center md:px-8"
       >
          <div className={ny(
             'group inline-flex h-7 px-3 py-4 items-center bg-[#bbe8a8] justify-between rounded-full border border-black/5 bg-opacity-15 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-opacity-30 dark:border-white/5 dark:hover:bg-neutral-800',
@@ -57,7 +57,7 @@ export default function HeroSection() {
                      <SVG src="/arrow-top-right.svg" />
                   </span>
                </ShimmerButton>
-               {/* <button className='border text-lg py-3 px-5 bg-green-600 cursor-pointer rounded-full'> Join the waitlist</button> */}
+               {/* <button className='border text-lg py-3 px-5 bg-green-600 cursor-pointer rounded-full'> Join the waitlist now</button> */}
             </div>
          </div>
          <div

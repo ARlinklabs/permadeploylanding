@@ -4,6 +4,8 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { AlignJustify, XIcon } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import SVG from 'react-inlinesvg'
+import ShimmerButton from '~/components/ui/shimmer-button'
 import { ny } from '~/lib/utils'
 import { buttonVariants } from '~/components/ui/button'
 
@@ -106,13 +108,9 @@ export function SiteHeader() {
 
                <div className="ml-auto flex h-full items-center">
                   <Link
-                     className={ny(
-                        buttonVariants({ variant: 'secondary' }),
-                        'mr-6 text-sm',
-                     )}
                      href="/signup"
                   >
-                     Join the waitlist
+               <button className='flex items-center gap-2 border text-lg py-1 px-4 bg-gray-800 cursor-pointer rounded-full'> Join the waitlist now <span> <SVG src='/arrow-top-right.svg'/> </span></button>
                   </Link>
                </div>
                <button
