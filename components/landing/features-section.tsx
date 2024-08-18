@@ -44,7 +44,7 @@ export async function BentoGrids() {
     return (
         <div className='flex flex-col justify-center'>
             <div className="inline-flex text-xl justify-center font-normal">
-                <h2 className="bg-gradient-to-t from-[#16b12f]/40 text-white rounded-full px-10 py-1 border">Features</h2>
+             
             </div>
             <BentoGrid className="relative mx-auto mt-6 max-w-5xl px-6 py-14 text-center md:px-8 lg:grid-rows-3">
                 {features.map(feature => (

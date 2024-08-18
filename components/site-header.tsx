@@ -10,7 +10,7 @@ import { buttonVariants } from '~/components/ui/button'
 const menuItem = [
    {
       id: 1,
-      label: 'Features',
+      label: 'features',
       href: '/features',
    },
    {

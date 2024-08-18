@@ -69,9 +69,9 @@ export default function HeroSection() {
                   }`}
             >
                <BorderBeam
-                  size={200}
-                  duration={12}
-                  delay={11}
+                  size={600}
+                  duration={9}
+                  delay={9}
                   colorFrom="#16b12f"
                   colorTo="#28eb48"
                />
@@ -81,11 +81,7 @@ export default function HeroSection() {
                   alt="Hero Image"
                   className="relative hidden size-full rounded-[inherit] border object-contain dark:block"
                />
-               <img
-                  src="/hero-light.png"
-                  alt="Hero Image"
-                  className="relative block size-full rounded-[inherit]  border object-contain dark:hidden"
-               />
+               
             </div>
          </div>
       </section>
