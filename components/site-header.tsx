@@ -106,13 +106,13 @@ export function SiteHeader() {
                   Permadeploy
                </Link>
 
-               <div className="ml-auto flex h-full items-center">
+               {/* <div className="ml-auto flex h-full items-center">
                   <Link
                      href="/signup"
                   >
                <button className='flex items-center gap-2 border text-lg py-1 px-4 bg-gray-800 cursor-pointer rounded-full'> Join the waitlist now <span> <SVG src='/arrow-top-right.svg'/> </span></button>
                   </Link>
-               </div>
+               </div> */}
                <button
                   className="ml-6 md:hidden"
                   onClick={() => setHamburgerMenuIsOpen(open => !open)}
