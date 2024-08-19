@@ -175,7 +175,7 @@ export default function CallToActionSection() {
                      <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-3 shadow-2xl backdrop-blur-md lg:size-32 dark:bg-black/10">
                         <GitBranch className="mx-auto size-16 text-black lg:size-24 dark:text-white" />
                      </div>
-                     <div className="text-primary z-10 mt-4 flex flex-col items-center text-center">
+                     <div className="text-primary z-10 mt-4 flex flex-col items-center px-4 text-center">
                         <h1 className="text-3xl font-bold lg:text-4xl">
                            Develop with arweave
                            {' '}

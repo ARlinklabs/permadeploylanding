@@ -35,18 +35,38 @@ export default function HeroSection() {
          </div>
          <div className="flex flex-col w-full items-center gap-12 mt-8">
             <div className="flex flex-col gap-4 items-center">
-               <div className="flex items-center gap-4 justify-between">
+               <div className="items-center gap-4 justify-between hidden md:flex">
                   <WavyText
                      word="Simplified Deployments on Permaweb"
                      className="text-white text-5xl font-bold tracking-wide"
                   />
                </div>
-               <div className="flex items-center gap-2">
-                  <p className="text-white text-2xl font-normal tracking-wide text-center">
+               <div className="grid md:hidden">
+                  <WavyText
+                     word="Simplified"
+                     className="text-white text-5xl font-bold tracking-wide"
+                  />
+                  <WavyText
+                     word="Deployments"
+                     className="text-white text-5xl font-bold tracking-wide"
+                  />
+                  <WavyText
+                     word="on Permaweb"
+                     className="text-white text-5xl font-bold tracking-wide"
+                  />
+               </div>
+               <div className="hidden md:flex items-center gap-2">
+                  <p className="text-white text-2xl font-normal md:tracking-wide text-center">
                      Deployments on arweave now made few clicks away,
                      powered by
                   </p>
                   <SVG src="/ao-logo.svg" />
+               </div>
+               <div className="flex flex-col items-center gap-2 sm:flex-row sm:hidden md:hidden">
+                  <p className="text-white text-lg sm:text-xl md:text-2xl font-normal tracking-wide text-center sm:text-left">
+                     Deployments on arweave now made few clicks away, powered by
+                  </p>
+                  <SVG src="/ao-logo.svg" className="w-10 h-auto" />
                </div>
             </div>
             <div className="flex gap-12 items-center">
