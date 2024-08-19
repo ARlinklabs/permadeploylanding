@@ -11,7 +11,6 @@ const footerNavs = [
             href: '/',
             name: 'About',
          },
-         
       ],
    },
 
