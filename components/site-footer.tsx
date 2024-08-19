@@ -1,4 +1,5 @@
-import { DiscordLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons'
+import { DiscordLogoIcon, GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons'
+
 import Link from 'next/link'
 import SVG from 'react-inlinesvg'
 
@@ -10,10 +11,7 @@ const footerNavs = [
             href: '/',
             name: 'About',
          },
-         {
-            href: '/',
-            name: 'Careers',
-         },
+         
       ],
    },
 
@@ -21,7 +19,7 @@ const footerNavs = [
       label: 'Community',
       items: [
          {
-            href: '/',
+            href: 'https://discord.gg/nKywdmbPTR',
             name: 'Discord',
          },
          {
@@ -38,12 +36,17 @@ const footerNavs = [
 
 const footerSocials = [
    {
-      href: '',
+      href: 'https://discord.gg/nKywdmbPTR',
       name: 'Discord',
       icon: <DiscordLogoIcon className="size-4" />,
    },
    {
-      href: '',
+      href: 'https://github.com/Permadeploy',
+      name: 'Discord',
+      icon: <GitHubLogoIcon className="size-4" />,
+   },
+   {
+      href: 'https://x.com/permadeploy',
       name: 'Twitter',
       icon: <TwitterLogoIcon className="size-4" />,
    },
