@@ -48,15 +48,16 @@ export default function HeroSection() {
                </div>
             </div>
             <div className="flex gap-12 items-center">
-               <ShimmerButton
-                  shimmerColor="#6671F3"
-                  className="border-[#525252] max-h-[48px] px-[28px] py-3 border"
-               >
-                  <span className="text-white text-lg flex items-center gap-2">
-                     Join the waitlist now
-                     <SVG src="/arrow-top-right.svg" />
-                  </span>
-               </ShimmerButton>
+            <ShimmerButton
+  shimmerColor="#6671F3"
+  className="border-[#525252] max-h-[48px] px-[28px] py-3 border"
+  onClick={() => window.location.href = 'https://x3ygxpocvfs.typeform.com/to/RYVFY8fi'}
+>
+  <span className="text-white text-lg flex items-center gap-2">
+    Join the waitlist now
+    <SVG src="/arrow-top-right.svg" />
+  </span>
+</ShimmerButton>
                {/* <button className='border text-lg py-3 px-5 bg-green-600 cursor-pointer rounded-full'> Join the waitlist now</button> */}
             </div>
          </div>
