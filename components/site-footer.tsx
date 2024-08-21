@@ -26,7 +26,7 @@ const footerNavs = [
             name: 'Twitter',
          },
          {
-            href: 'mailto:permadeploy@gmail.com',
+            href: 'mailto:contact.arlink@gmail.com',
             name: 'Email',
          },
       ],
@@ -40,7 +40,7 @@ const footerSocials = [
       icon: <DiscordLogoIcon className="size-4" />,
    },
    {
-      href: 'https://github.com/Permadeploy',
+      href: 'https://github.com/ARLinklabs',
       name: 'Discord',
       icon: <GitHubLogoIcon className="size-4" />,
    },
@@ -63,7 +63,7 @@ export function SiteFooter() {
                         className="text-primary size-8"
                      />
                      <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-                        Permadeploy
+                        ARlink
                      </span>
                   </Link>
                   <p className="max-w-xs">Deployments made easier on arweave.</p>
@@ -110,7 +110,7 @@ export function SiteFooter() {
                   {new Date().getFullYear()}
                   {' '}
                   <Link href="/" className="cursor-pointer">
-                     Permadeploy
+                     ARlink
                   </Link>
                   . All Rights Reserved.
                </span>

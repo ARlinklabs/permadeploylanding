@@ -17,7 +17,7 @@ export function Navbar() {
       },
       {
          name: 'Contact',
-         link: 'mailto:permadeploy@gmail.com',
+         link: 'mailto:contact.arlink@gmail.com',
          icon: (
             <IconMessage className="size-4 text-neutral-500 dark:text-white" />
          ),

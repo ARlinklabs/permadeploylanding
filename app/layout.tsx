@@ -11,7 +11,7 @@ const fontSans = FontSans({
    variable: '--font-sans',
 })
 export const metadata: Metadata = {
-   title: 'Permadeploy',
+   title: 'ARlink',
    description: 'Deploy your applications on arweave with ease',
 }
 
