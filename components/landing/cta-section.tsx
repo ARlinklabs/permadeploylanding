@@ -186,7 +186,7 @@ export default function CallToActionSection() {
                            Launch it permanently on the permaweb in one click
                         </p>
                         <Link
-                           href="https://x3ygxpocvfs.typeform.com/to/RYVFY8fi"
+                           href="https://forms.gle/x5bTG18skaYqTbK9A"
                            className={ny(
                               buttonVariants({
                                  size: 'lg',

@@ -25,7 +25,7 @@ export default function HeroSection() {
             className={ny(
                'group inline-flex h-7 px-3 py-4 items-center bg-[#bbe8a8] justify-between rounded-full border border-black/5 bg-opacity-15 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-opacity-30 dark:border-white/5 dark:hover:bg-neutral-800',
             )}
-            onClick={() => window.location.href = 'https://x3ygxpocvfs.typeform.com/to/RYVFY8fi'}
+            onClick={() => window.location.href = 'https://forms.gle/x5bTG18skaYqTbK9A'}
          >
             <AnimatedShinyText className="inline-flex items-center justify-center">
                <span>✨ Get early access</span>
@@ -73,7 +73,7 @@ export default function HeroSection() {
                <ShimmerButton
                   shimmerColor="#6671F3"
                   className="border-[#525252] max-h-[48px] px-[28px] py-3 border"
-                  onClick={() => window.location.href = 'https://x3ygxpocvfs.typeform.com/to/RYVFY8fi'}
+                  onClick={() => window.location.href = 'https://forms.gle/x5bTG18skaYqTbK9A'}
                >
                   <span className="text-white text-lg flex items-center gap-2">
                      Join the waitlist now

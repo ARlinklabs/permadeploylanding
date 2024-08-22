@@ -76,7 +76,7 @@ export function FloatingNav({
             ))}
             <button
                className="relative rounded-full border border-neutral-200 px-4 py-2 text-sm font-medium text-black dark:border-[#28eb48] dark:text-white"
-               onClick={() => window.location.href = 'https://x3ygxpocvfs.typeform.com/to/RYVFY8fi'}
+               onClick={() => window.location.href = 'https://forms.gle/x5bTG18skaYqTbK9A'}
             >
                <span>Join</span>
                <span className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 bg-gradient-to-r from-transparent via-[#16b12f]  to-transparent" />
