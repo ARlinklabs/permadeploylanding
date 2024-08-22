@@ -28,6 +28,9 @@ const config = {
             sans: ['var(--font-sans)', ...fontFamily.sans],
          },
          colors: {
+            arlink: {
+               primary: '#265031',
+            },
             border: 'hsl(var(--border))',
             input: 'hsl(var(--input))',
             ring: 'hsl(var(--ring))',
