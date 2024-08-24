@@ -22,7 +22,7 @@ const footerNavs = [
             name: 'Discord',
          },
          {
-            href: 'https://x.com/permadeploy',
+            href: 'https://x.com/arlinklabs',
             name: 'Twitter',
          },
          {
@@ -45,7 +45,7 @@ const footerSocials = [
       icon: <GitHubLogoIcon className="size-4" />,
    },
    {
-      href: 'https://x.com/permadeploy',
+      href: 'https://x.com/arlinklabs',
       name: 'Twitter',
       icon: <TwitterLogoIcon className="size-4" />,
    },
