@@ -57,8 +57,7 @@ export default function HeroSection() {
                </div>
                <div className="hidden md:flex items-center gap-2">
                   <p className="text-white text-2xl font-normal md:tracking-wide text-center">
-                     Deployments on arweave now made few clicks away,
-                     powered by
+                     Deploy your projects to the permaweb with a single click, powered by
                   </p>
                   <SVG src="/ao-logo.svg" />
                </div>

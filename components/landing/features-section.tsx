@@ -57,7 +57,7 @@ export async function BentoGrids() {
                         Deploy Seamlessly and Quick
                     </h1>
                     <p className="text-gray-400 text-xl font-normal text-center">
-                        build locally, deploy globally, and scale infinitely
+                    Deploy your projects to the permaweb with a single click, scale infinitely
                     </p>
                 </div>
                 <BentoGrid className="relative mx-auto mt-6 max-w-5xl px-6 py-14 text-center md:px-8 lg:grid-rows-3">

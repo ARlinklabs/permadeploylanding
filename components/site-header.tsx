@@ -102,17 +102,30 @@ export function SiteHeader() {
       <>
          <header className="animate-fade-in left-0 top-0 z-50 w-full -translate-y-4 opacity-0 backdrop-blur-md [--animation-delay:600ms]">
             <div className="container flex h-[70px] items-center justify-between">
-               <Link className="flex items-center text-lg" href="/">
+               <Link className="flex items-center text-lg font-medium" href="/">
+                  <SVG src="arlink.svg" />
+                  {' '}
                   ARlink
                </Link>
 
-               {/* <div className="ml-auto flex h-full items-center">
+               <div className="ml-auto flex h-full items-center">
                   <Link
                      href="/signup"
                   >
-               <button className='flex items-center gap-2 border text-lg py-1 px-4 bg-gray-800 cursor-pointer rounded-full'> Join the waitlist now <span> <SVG src='/arrow-top-right.svg'/> </span></button>
+                     <button
+                        onClick={() => window.location.href = 'https://forms.gle/x5bTG18skaYqTbK9A'}
+                        className="flex cursor-pointer items-center gap-2 rounded-full border bg-gray-800 px-4 py-1 text-lg"
+                     >
+                        {' '}
+                        Join the waitlist now
+                        <span>
+                           {' '}
+                           <SVG src="/arrow-top-right.svg" />
+                           {' '}
+                        </span>
+                     </button>
                   </Link>
-               </div> */}
+               </div>
                <button
                   className="ml-6 md:hidden"
                   onClick={() => setHamburgerMenuIsOpen(open => !open)}
@@ -137,7 +150,7 @@ export function SiteHeader() {
             >
                <div className="container flex h-14 items-center justify-between">
                   <Link className="text-md flex items-center" href="/">
-                     ARlink
+                     <SVG src="arlink.svg" />
                   </Link>
 
                   <button

@@ -59,8 +59,8 @@ export function SiteFooter() {
                <div className="mb-12 flex flex-col gap-4">
                   <Link href="/" className="flex items-center gap-2">
                      <SVG
-                        src="/joose.svg"
-                        className="text-primary size-8"
+                        src="/arlink.svg"
+                        className="text-primary size-16"
                      />
                      <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
                         ARlink
