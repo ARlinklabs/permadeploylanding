@@ -23,7 +23,7 @@ export default function HeroSection() {
       >
          <div
             className={ny(
-               'group inline-flex h-7 px-3 py-4 items-center bg-[#bbe8a8] justify-between rounded-full border border-black/5 bg-opacity-15 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-opacity-30 dark:border-white/5 dark:hover:bg-neutral-800',
+               'group inline-flex h-7 px-3 py-4 items-center bg-[#265031] justify-between rounded-full border border-black/5 bg-opacity-30 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-opacity-30 dark:border-white/5 dark:hover:bg-arlink-primary dark:hover:bg-opacity-50',
             )}
             onClick={() => window.location.href = 'https://forms.gle/x5bTG18skaYqTbK9A'}
          >
