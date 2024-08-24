@@ -114,7 +114,7 @@ export function SiteHeader() {
                   >
                      <button
                         onClick={() => window.location.href = 'https://forms.gle/x5bTG18skaYqTbK9A'}
-                        className="flex cursor-pointer items-center gap-2 rounded-full border bg-gray-800 px-4 py-1 text-lg"
+                        className="hidden md:flex cursor-pointer items-center gap-2 rounded-full border bg-gray-800 px-4 py-1 text-lg "
                      >
                         {' '}
                         Join the waitlist now
