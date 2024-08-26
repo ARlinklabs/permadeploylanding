@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter as FontSans } from 'next/font/google'
-import Head from 'next/head'
+import Script from 'next/script'
 import { ThemeProvider } from '~/components/theme-provider'
 import { Toaster } from '~/components/ui/sonner'
 import { ny } from '~/lib/utils'
@@ -10,6 +10,7 @@ const fontSans = FontSans({
    subsets: ['latin'],
    variable: '--font-sans',
 })
+
 export const metadata: Metadata = {
    title: 'ARlink',
    description: 'Deploy your applications on arweave with ease',
@@ -22,19 +23,20 @@ export default function RootLayout({
 }>) {
    return (
       <html lang="en" suppressHydrationWarning>
-         <Head>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH8V4MQH0P"></script>
-            <script
-               dangerouslySetInnerHTML={{
-                  __html: `
-                     window.dataLayer = window.dataLayer || [];
-                     function gtag(){dataLayer.push(arguments);}
-                     gtag('js', new Date());
-                     gtag('config', 'G-XH8V4MQH0P');
-                  `,
-               }}
+         <head>
+            <Script
+               src="https://www.googletagmanager.com/gtag/js?id=G-XH8V4MQH0P"
+               strategy="afterInteractive"
             />
-         </Head>
+            <Script id="google-analytics" strategy="afterInteractive">
+               {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-XH8V4MQH0P');
+               `}
+            </Script>
+         </head>
          <body
             className={ny(
                'bg-background min-h-screen font-sans antialiased',
